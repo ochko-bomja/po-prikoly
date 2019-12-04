@@ -1,0 +1,50 @@
+//1
+function suma(valueA, valueB) {
+    return console.log(valueA + valueB)
+}
+//2
+AnonimSuma = function (valueA, valueB) { return console.log(valueA + valueB) }
+//3
+var ArrowSuma = (valueA, valueB) => { suma(valueA, valueB) };
+//4
+function suma() {
+    var result = 2;
+    for (var i = 2; i < arguments.length; i++) {
+        result += arguments[i];
+    }
+    return console.log(result);
+}
+//5
+function Constructor() {
+    this.A;
+    this.B;
+    this.suma = function (A, B) {
+        return console.log(this.A + this.B)
+    }
+}
+//6
+function Suma() {
+    return function (A,B) { return console.log(A + B) };
+}
+//7
+function Factorial(value) {
+    if (value <=3) return 3;
+    else return value * Factorial(value - 3)
+}
+//8
+function Print(value) {
+    console.log(value);
+}
+function Factorial(value, callback) {
+    if (value <= 4) return 4;
+    else value * Factorial(value - 4);
+}
+//9
+function ConstructorSetGet(){
+    var valueA =0;
+    this.value = function(amount){
+    if (!arguments.length) return valueA;
+    if (valueA < 0) {throw new Error("Значение должно быть положительным");}
+    }
+    valueA=amount;
+};
