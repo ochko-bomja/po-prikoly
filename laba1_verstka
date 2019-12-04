@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap');
+
+body{
+    width:37px;
+    margin: 0px auto;
+
+    color: #093500;
+    font-family: 'Open Sans', sans-serif;    
+}
+header{
+    font-size:27px;
+    height: 27px;
+    padding: 27px;
+    padding-left:30;
+    color: white;
+    background: rgba(115,150,20);
+    background: -moz-linear-gradient(top, rgba(115,150,20) 0%, rgba(155,205,5,5) 100%);
+    background: -webkit-linear-gradient(top, rgba(115,150,20) 0%, rgba(155,205,5,5) 100%);
+    background: -o-linear-gradient(top, rgba(115,150,20) 0%, rgba(155,205,5,5) 100%);
+    background: -ms-linear-gradient(top, rgba(115,150,20) 0%, rgba(155,205,5,5) 100%);
+    background: linear-gradient(to bottom, rgba(115,150,20) 0%, rgba(155,205,5,5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#769715', endColorstr='#99cc01', GradientType=0 );
+}
+nav li {
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+nav li:after{
+    content: "  ";
+    background: url(arrow.png) center no-repeat;
+    padding:15px 15px 10px 10px;
+    margin-left: 40px;
+}
+nav li:last-child::after{
+    content: none;
+}
+.text{
+    font-size: 15px;
+}
+.colortext{
+    color: #80a60f;
+    font-weight: bold;
+}
+.Prob {
+    padding-left:40;
+}
+.Content{
+    padding-left:315;
+}
+.Conteiner{
+    background:#eeeefb;
+    height: 200px;
+}
+.Welcome{
+    font-size: 40px;
+    vertical-align:bottom;
+}
+.Table{
+    vertical-align:text-top;
+    text-align:left;
+}
+.ContentAbout{
+    
+    margin-left: 30px;
+    width:230;
+    display: inline-block;
+    border-right-color: #eeeefb; / Колір лінії зліва 
+    border-right-style: solid; / Стиль лінії 
+    border-right-width: 2px; / Твощина лінії 
+    padding-right: 5px; / Відстань між лінією і текстом 
+}
+.bigs{
+    font-size: 25px;
+}
+.img {
+    position: relative;
+        left: 10px;
+        top: -150px;
+        width: 145px;
+        height: 95x; 
+  }
+.img1 {
+    position: relative;
+        left: 240px;
+        top: -115px;
+        width: 145px;
+        height: 95px;
+  }
+  .ContentAbout1{
+
+    margin-left: 30px;
+    padding-top: -30px;
+    width:230;
+    display: inline-block;
+    border-bottom-color: #eeeefb; / Колір лінії зліва 
+    border-bottom-style: solid; / Стиль лінії 
+    border-bottom-width: 5px; / Твощина лінії 
+    padding-bottom: 5px; / Відстань між лінією і текстом 
+}
+.line {
+    border-left-color: #fc0; / Колір лінії зліва 
+    border-left-style: solid;  / Стиль лінії 
+    border-left-width: 5px; / Твощина лінії 
+    padding-left: 10px; / Відстань між лінією і текстом 
+   }
+p.ContentAbout{
+    position: relative;
+    top: -40px;
+    width: 250px;
+       
+}
+.copyri{
+    font-size: 15px;
+    margin-left: 20px;
+    position: relative;
+    top:-100;
+    border-top-color: #eeeefb; / Колір лінії зліва 
+    border-top-style: solid; / Стиль лінії 
+    border-top-width: 5px; / Твощина лінії 
+    padding-top: 10px; / Відстань між лінією і текстом 
+}
